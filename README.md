@@ -1,5 +1,5 @@
-# Ex02 Time Table
-## Date:
+# Ex04 Time Table
+## Date:17/11/2026
 
 ## AIM
 To write a html webpage page to display your slot timetable.
@@ -27,10 +27,118 @@ Add your course schedule using ```<td>``` tag.
 Execute the program using runserver command.
 
 ## PROGRAM
+```
+<html>
+    <head>
+        <title>my website</title>
+    </head>
+    <body>
+        <img src="logo.png"   width="1100" >
+        <table  border="1" align="center" bgcolor="lightblue" >
+            <tr>
+                <th bgcolor="yellow">time and days</th>
+                <th bgcolor="yellow">8:00-9:30</th>
+                <th bgcolor="yellow">9:45-11:14</th>
+                <th bgcolor="yellow">11:30-12:15</th>
+                <th bgcolor="yellow">12:15-1:00</th>
+                <th bgcolor="yellow">1:15-2:45</th>
+                <th bgcolor="yellow">3:00-4:30</th>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">monday</th>
+                <td> computer archticture</td>
+                <td>web application</td>
+                <td > mentor meet</td>
+                <td colspan="3" align="center">-</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">tuesday</th>
+                <td align="center">-</td>
+                <td>mechanics</td>
+                <td>mentor meet</td>
+                <td align="center">-</td>
+                <td>maths</td>
+                <td>EDM</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Wednesday</th>
+                <td>web</td>
+                <td align="center">-</td>
+                <td  > mentor meet </td>
+                <td colspan="2" align="center">-</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Thursday</th>
+                <td>maths</td>
+                <td>mechanics</td>
+                <td colspan="3" align="center">-</td>
+                <td>EEE</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Friday</th>
+                <td>computer</td>
+                <td align="center">-</td>
+                <td>mentor meet</td>
+                <td colspan="2" align="center">-</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">Saturday</th>
+                <td align="center">-</td>
+                <td>EDM</td>
+                <td>mentor meet</td>
+                <td align="center">-</td>
+                <td>Maths</td>
+                <td>python</td>
+            </tr>
+
+        </table>
+        <table border="1" align="center" >
+            <tr>
+                <th bgcolor="yellow" >S.NO</th>
+                <th bgcolor="yellow">Subject code</th>
+                <th bgcolor="yellow">subject</th>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">1</th>
+                <td>26ODJ148</td>
+                <td>Fundamentals of web application</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">2</th>
+                <td>4x1-20</td>
+                <td>computer architecture</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">3</th>
+                <td>26ODJ051</td>
+                <td>matrix and calcus</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">4</th>
+                <td>26ODJ157</td>
+                <td>python</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">5</th>
+                <td>26ODJ084</td>
+                <td>Basic EEE</td>
+            </tr>
+            <tr>
+                <th bgcolor="yellow">6</th>
+                <td>26ODJ184</td>
+                <td>EMPD</td>
+            </tr>
+        </table>
+    </body>
+</html>
+
+```
 
 
 ## OUTPUT
-
+![alt text](<Screenshot 2026-11-17 141452.png>)
 
 ## RESULT
 The program for creating slot timetable using basic HTML tags is executed successfully.
